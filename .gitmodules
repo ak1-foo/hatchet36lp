@@ -1,0 +1,3 @@
+[submodule ".\\hatchet36_circuit_board\\Keebio-Parts.pretty"]
+	path = .\\hatchet36_circuit_board\\Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty
