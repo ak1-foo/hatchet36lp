@@ -235,7 +235,10 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Keebio-Parts",
+      "LocalLibrary"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
