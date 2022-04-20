@@ -236,8 +236,7 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "Keebio-Parts",
-      "LocalLibrary"
+      "locallib"
     ],
     "pinned_symbol_libs": []
   },
