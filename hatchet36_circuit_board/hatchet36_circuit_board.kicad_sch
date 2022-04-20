@@ -2381,7 +2381,7 @@
     (property "Value" "BL652" (id 1) (at 254.1144 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "RF_Module:Laird_BL652" (id 2) (at 252.095 158.75 0)
+    (property "Footprint" "" (id 2) (at 252.095 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://cdn.lairdtech.com/home/brandworld/files/Datasheet%20-%20BL652.pdf" (id 3) (at 252.095 161.29 0)
@@ -3464,7 +3464,7 @@
     (property "Reference" "C2" (id 0) (at 69.215 167.0049 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (id 1) (at 69.215 169.5449 0)
+    (property "Value" "" (id 1) (at 69.215 169.5449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 66.3702 172.085 0)
@@ -3630,10 +3630,10 @@
       (reference "BT2") (unit 1) (value "Battery_Cell") (footprint "Battery:Battery_Panasonic_CR1632-V1AN_Vertical_CircularHoles")
     )
     (path "/860000f7-cb11-4cf7-9dab-9773b2e1b109"
-      (reference "C1") (unit 1) (value "0.1uF") (footprint "")
+      (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/f133eb4b-bea7-4a45-8bb5-e8a6319664c0"
-      (reference "C2") (unit 1) (value "C") (footprint "")
+      (reference "C2") (unit 1) (value "100uF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
     )
     (path "/9df78b20-7bdb-4d86-a1fa-287b83d1fff1"
       (reference "D1") (unit 1) (value "1N4148W") (footprint "Diode_SMD:D_SOD-123")
@@ -3774,10 +3774,10 @@
       (reference "D46") (unit 1) (value "1N4148W") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/36c7a529-9c48-4cc8-b39d-47cdef98a63f"
-      (reference "D47") (unit 1) (value "D_Schottky") (footprint "")
+      (reference "D47") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/ee9248ee-b382-4dfd-97fe-fd6ed5de3832"
-      (reference "D48") (unit 1) (value "D_Schottky") (footprint "")
+      (reference "D48") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/f4b00c54-9ad1-49cc-a893-af751b7bbde3"
       (reference "J1") (unit 1) (value "Conn_01x04_Female") (footprint "")
@@ -3927,7 +3927,7 @@
       (reference "SW48") (unit 1) (value "SW_SPDT") (footprint "")
     )
     (path "/73846744-8199-4c16-b04a-3244ef0b5a6a"
-      (reference "U1") (unit 1) (value "BL652") (footprint "RF_Module:Laird_BL652")
+      (reference "U1") (unit 1) (value "BL652") (footprint "locallib:Laird_BL652_LongPad")
     )
   )
 )
