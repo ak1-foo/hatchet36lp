@@ -1,2 +1,2 @@
-# hatchet36
+# hatchet36lp
 original keyboard
