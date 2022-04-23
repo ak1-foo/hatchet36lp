@@ -2790,8 +2790,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cb61f6a9-cf62-4a04-aa61-3fe07a0b0bd3)
     (property "Reference" "SW38" (id 0) (at 94.615 113.03 0))
-    (property "Value" "SW_SPDT" (id 1) (at 94.615 115.57 0))
-    (property "Footprint" "locallib:slide_switch_vertical_01x03_pitch2mm" (id 2) (at 94.615 121.285 0)
+    (property "Value" "" (id 1) (at 94.615 115.57 0))
+    (property "Footprint" "" (id 2) (at 94.615 121.285 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 94.615 121.285 0)
@@ -3298,10 +3298,10 @@
       (reference "D37") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/88af43ad-0ce6-423b-bab0-2a1dbd5eaa54"
-      (reference "J1") (unit 1) (value "Conn_01x02_Female") (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm")
+      (reference "J1") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical")
     )
     (path "/ad996359-1b62-4295-9488-a9308d8aa53b"
-      (reference "J2") (unit 1) (value "Conn_01x02_Female") (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm")
+      (reference "J2") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical")
     )
     (path "/f4b00c54-9ad1-49cc-a893-af751b7bbde3"
       (reference "J3") (unit 1) (value "Conn_01x04_Female") (footprint "locallib:programming_port")
@@ -3418,7 +3418,7 @@
       (reference "SW37") (unit 1) (value "SW_Push") (footprint "locallib:SW_SPST_ALPS-SKRP")
     )
     (path "/cb61f6a9-cf62-4a04-aa61-3fe07a0b0bd3"
-      (reference "SW38") (unit 1) (value "SW_SPDT") (footprint "locallib:slide_switch_vertical_01x03_pitch2mm")
+      (reference "SW38") (unit 1) (value "SW_SPDT") (footprint "locallib:SW_Slide_1P2T_CK_OS102011MS2Q_SmallPad")
     )
     (path "/73846744-8199-4c16-b04a-3244ef0b5a6a"
       (reference "U1") (unit 1) (value "BL652") (footprint "locallib:Laird_BL652_LongPad")
